@@ -1,0 +1,19 @@
+Burp suite
+Nikto 
+SqlMap 
+nmap
+Metasploit
+Wireshark
+Linux
+wazuh
+security onion 
+netsparker
+owasp zap
+mobexler
+mobsf
+jadx
+pfsense
+snort
+Python
+Bash
+PowerShell.

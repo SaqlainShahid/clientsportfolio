@@ -1,0 +1,19 @@
+1. Phishing Domain Investigation
+
+Conducted detailed investigation of suspicious phishing domains targeting client infrastructure. Performed DNS and WHOIS lookups, URL sandboxing, and threat intelligence correlation. Delivered actionable insights with takedown recommendations to mitigate risks.
+
+2. 100 Endpoint VAPT and Remediation
+
+Led vulnerability assessment and penetration testing (VAPT) across 100 enterprise endpoints. Identified critical security gaps including misconfigurations, weak credentials, and outdated software. Provided prioritized remediation steps, enabling the client to strengthen their endpoint security posture.
+
+3. IP Address Investigation
+
+Investigated potentially malicious IP addresses flagged in security alerts. Used threat intelligence feeds, geolocation, and reputation analysis to confirm risk levels. Delivered comprehensive reports that supported the client’s incident response team in containing threats.
+
+4. OSINT (Open Source Intelligence)
+
+Executed OSINT-based assessments to gather publicly available data on client assets, employees, and potential attack vectors. Identified sensitive exposures such as credential leaks and infrastructure details. Helped client reduce digital footprint and improve security awareness.
+
+5. Web Penetration Testing
+
+Performed in-depth penetration testing of client’s web applications to uncover vulnerabilities including SQLi, XSS, and authentication flaws. Used industry-standard tools (Burp Suite, OWASP ZAP) and manual testing techniques. Provided remediation guidance aligned with OWASP Top 10 best practices.

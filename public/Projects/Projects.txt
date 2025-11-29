@@ -1,0 +1,9 @@
+
+1. PhishDetect – ML-Based URL Classifier   : https://github.com/alimalik13/phishing-url-detector.git 
+2. Pfsense Firewall setups and DOS simulation
+3. Security onion setup
+4. Wazuh server ad agent Deployment
+5. vulnerable web app for SQLi and XXS demonstration : https://github.com/alimalik13/vuln-login-app.git
+
+
+FYP : Inteligent Log analysis tool for SOC (ILA)

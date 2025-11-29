@@ -1,0 +1,44 @@
+Web Application Penetration Testing
+Comprehensive security testing for web apps to find OWASP Top 10 issues (SQLi, XSS, auth flaws) and deliver prioritized remediation. (Burp Suite, OWASP ZAP, Netsparker, sqlmap)
+
+Network & Infrastructure Assessment (VAPT)
+Full vulnerability assessment and penetration testing of network hosts, services, and firewalls with risk ratings and remediation guidance. (nmap, Metasploit, Nikto, pfSense, Snort)
+
+Mobile Application Security Testing
+Static and dynamic analysis of Android/iOS apps to identify insecure storage, code flaws and dangerous permissions. (Mobexler, MobSF, JADX)
+
+API & Backend Security Testing
+Targeted testing of REST/GraphQL APIs for authentication, authorization, and injection vulnerabilities. (Burp Suite, Postman, custom Python scripts)
+
+Cloud & Configuration Reviews
+Evaluation of cloud configurations and host hardening recommendations to reduce attack surface and misconfigurations. (Linux, Bash, PowerShell, policy checks)
+
+Endpoint Security Assessment & Remediation
+Audit endpoints for misconfigurations, missing patches and weak controls; provide remediation playbook and configuration hardening. (Wazuh, security onion, EDR guidance)
+
+100-Endpoint / Enterprise VAPT Projects
+Scalable assessment engagements across large fleets with prioritized findings and roll-out remediation support. (nmap, automated scanners, Wazuh for detection validation)
+
+Threat Hunting & Incident Response
+Triage and investigation of alerts, IOC enrichment, containment guidance and post-incident remediation. (Wazuh, Security Onion, Wireshark, Snort)
+
+SIEM Deployment & Log Monitoring (SOC Support)
+SIEM onboarding, rules tuning, dashboard creation and alert playbooks to elevate detection capability. (Wazuh, ELK/Splunk concepts, Security Onion)
+
+Phishing Domain & Threat Intelligence Investigations
+Domain/URL triage, WHOIS/DNS analysis, reputation checks and takedown recommendations to protect clients. (OSINT tooling, custom scripts, TI feeds)
+
+OSINT & Digital Footprint Reduction
+Public-data discovery on assets, leaked credentials and exposure mapping with mitigation guidance. (OSINT methodologies, automated checks)
+
+IP & Network Address Investigations
+Reputation, geolocation, and historical activity analysis of suspicious IPs to support IR and blocking decisions. (Threat intel feeds, nmap, Wireshark)
+
+Web Application Code Review & Secure Coding Advice
+Manual review of critical code paths and guidance to remediate logic flaws, auth bugs, and insecure patterns. (Python/PowerShell/Bash knowledge, manual review)
+
+Firewall & Perimeter Hardening (pfSense / IDS/IPS)
+Design and harden firewall rulesets, IDS/IPS tuning and segmentation recommendations for enterprise networks. (pfSense, Snort, Security Onion)
+
+Security Awareness & Technical Training
+Practical workshops for devs/ops on secure coding, log triage, basic pentesting and SOC fundamentals. (Custom labs, demos, slides)
