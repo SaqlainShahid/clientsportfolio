@@ -27,3 +27,8 @@ yarn-error.log*
 
 Server/node_modules
 Server/config.js
+ 
+ # large artifacts
+ build.zip
+ public/Projects/pfsense/*.mp4
+ portfolio/Projects/pfsense/*.mp4
