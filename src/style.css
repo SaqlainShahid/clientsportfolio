@@ -759,3 +759,89 @@ button:focus {
 .fork-btn-inner::after {
   display: none !important;
 }
+
+/* --------- */
+/* Skillset Section */
+/* --------- */
+.skillset-container {
+  background: var(--section-background-color);
+  padding: 3rem 1rem;
+  border-radius: 16px;
+  margin: 2rem auto;
+  max-width: 1100px;
+  box-shadow: 0 4px 32px rgba(80, 40, 120, 0.15);
+}
+
+.skillset-title {
+  color: var(--imp-text-color);
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.tools-section {
+  margin-bottom: 2.5rem;
+}
+.tools-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+}
+.tool-card {
+  background: #1b1a2e;
+  border-radius: 12px;
+  padding: 1rem 1.5rem;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 2px 8px rgba(80, 40, 120, 0.08);
+  min-width: 120px;
+  font-size: 1.1rem;
+  transition: transform 0.2s;
+}
+.tool-card:hover {
+  transform: translateY(-4px) scale(1.04);
+  box-shadow: 0 6px 24px rgba(80, 40, 120, 0.18);
+}
+.tool-icon {
+  font-size: 2rem;
+  margin-right: 0.7rem;
+}
+.tool-name {
+  color: #fff;
+  font-weight: 500;
+}
+
+.services-section {
+  margin-top: 2rem;
+}
+.services-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+}
+.service-card {
+  background: #221b36;
+  border-radius: 12px;
+  padding: 1.5rem 1.2rem;
+  box-shadow: 0 2px 8px rgba(80, 40, 120, 0.08);
+  transition: box-shadow 0.2s;
+}
+.service-card:hover {
+  box-shadow: 0 6px 24px rgba(80, 40, 120, 0.18);
+}
+.service-card h4 {
+  color: var(--imp-text-color);
+  font-size: 1.2rem;
+  margin-bottom: 0.7rem;
+}
+.service-card p {
+  color: #e0e0e0;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+.service-tools {
+  color: #b8a1e3;
+  font-size: 0.95rem;
+}

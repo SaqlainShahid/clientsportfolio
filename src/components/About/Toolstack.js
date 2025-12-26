@@ -1,30 +1,96 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import macOs from "../../Assets/TechIcons/Apple MacOSX.svg";
-import chrome from "../../Assets/TechIcons/Google Chrome.svg";
-import vsCode from "../../Assets/TechIcons/vscode.svg";
-import intelliJ from "../../Assets/TechIcons/intellij-idea.svg";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faPython,
+  faLinux,
+  faWindows,
+  faGithub,
+  faJs,
+  faGitlab,
+  faDocker,
+  faAws,
+  faGoogle,
+  faApple,
+  faChrome,
+  faFirefox,
+  faEdge,
+  faGit,
+  faNpm,
+  faNodeJs,
+  faReact,
+  faJava,
+  faHtml5,
+  faCss3Alt,
+  faBootstrap,
+  faUbuntu,
+  faCentos,
+  faRedhat,
+  faFedora,
+  faStackOverflow,
+  faYarn,
+  faPhp,
+  faLaravel,
+  faJenkins,
+  faBitbucket,
+  faAws as faAwsBrand,
+  faGitAlt,
+  faGitSquare,
+  faGitkraken,
+  faGitlab as faGitlabBrand,
+  faJira,
+  faSlack,
+  faTrello,
+  faWordpress,
+  faFigma,
+  faAdobe,
+  faAndroid,
+  faApple as faAppleBrand,
+  faChrome as faChromeBrand,
+  faFirefox as faFirefoxBrand,
+  faEdge as faEdgeBrand,
+  faWindows as faWindowsBrand,
+  faLinux as faLinuxBrand,
+  faUbuntu as faUbuntuBrand,
+  faCentos as faCentosBrand,
+  faRedhat as faRedhatBrand,
+  faFedora as faFedoraBrand,
+  faStackOverflow as faStackOverflowBrand
+} from "@fortawesome/free-brands-svg-icons";
+import { faNetworkWired, faShieldAlt, faBug, faDatabase, faSearch, faLock, faTerminal, faFileCode, faTools, faProjectDiagram, faCogs, faUserSecret, faSitemap, faKey, faCodeBranch, faServer, faCloud, faLaptopCode, faFileAlt, faFileArchive, faFileExcel, faFilePdf, faFileWord, faFilePowerpoint, faFileImage, faFileVideo, faFileAudio, faFileCsv, faFileContract, faFileInvoice, faFileMedical, faFilePrescription, faFileSignature, faFileUpload, faFileDownload, faFileExport, faFileImport, faFileAlt as faFileAltSolid, faMobileAlt } from "@fortawesome/free-solid-svg-icons";
+
 
 function Toolstack() {
+  // List of tools with FontAwesome icon and label
+  const tools = [
+    { name: "Burp Suite", icon: faBug },
+    { name: "Nikto", icon: faSearch },
+    { name: "SqlMap", icon: faDatabase },
+    { name: "nmap", icon: faNetworkWired },
+    { name: "Metasploit", icon: faUserSecret },
+    { name: "Wireshark", icon: faSitemap },
+    { name: "Linux", icon: faLinux },
+    { name: "wazuh", icon: faShieldAlt },
+    { name: "security onion", icon: faShieldAlt },
+    { name: "netsparker", icon: faLock },
+    { name: "owasp zap", icon: faBug },
+    { name: "mobexler", icon: faMobileAlt },
+    { name: "mobsf", icon: faMobileAlt },
+    { name: "jadx", icon: faFileCode },
+    { name: "pfsense", icon: faServer },
+    { name: "snort", icon: faShieldAlt },
+    { name: "Python", icon: faPython },
+    { name: "Bash", icon: faTerminal },
+    { name: "PowerShell", icon: faTerminal },
+  ];
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons">
-        <img src={macOs} alt="macOs" className="tech-icon-images" />
-        <div className="tech-icons-text">Mac Os</div>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons ">
-        <img src={chrome} alt="Chrome" className="tech-icon-images" />
-        <div className="tech-icons-text">Google Chrome</div>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons ">
-        <img src={vsCode} alt="vsCode" className="tech-icon-images" />
-        <div className="tech-icons-text">Vs Code</div>
-      </Col>
-
-      <Col xs={4} md={2} className="tech-icons ">
-        <img src={intelliJ} alt="go" className="tech-icon-images" />
-        <div className="tech-icons-text">IntelliJ</div>
-      </Col>
+      {tools.map((tool, idx) => (
+        <Col xs={4} md={2} className="tech-icons" key={tool.name}>
+          <FontAwesomeIcon icon={tool.icon} size="3x" />
+          <div className="tech-icons-text">{tool.name}</div>
+        </Col>
+      ))}
     </Row>
   );
 }

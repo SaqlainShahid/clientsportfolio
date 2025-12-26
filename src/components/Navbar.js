@@ -84,6 +84,12 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
+              <Nav.Item>
+                <Nav.Link as={Link} to="/skillset" onClick={() => updateExpanded(false)}>
+                  <AiOutlineUser style={{ marginBottom: "2px" }} /> Skillset
+                </Nav.Link>
+              </Nav.Item>
+
             <Nav.Item>
               <Nav.Link
                 href="https://www.linkedin.com/in/ali-malik-76212a253"

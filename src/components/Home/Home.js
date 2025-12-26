@@ -10,6 +10,7 @@ import About from "../About/About";
 import Resume from "../Resume/ResumeNew";
 import Certifications from "../Certifications/Certifications";
 import Projects from "../Projects/Projects";
+import Skillset from "../Skillset";
 
 function Home() {
   return (
@@ -63,6 +64,7 @@ function Home() {
         <section id="projects">
           <Projects />
         </section>
+       
         <Row style={{ paddingTop: "50px", paddingBottom: "80px" }}>
           <Col md={12} className="home-about-social">
             <h1>Find Me On</h1>
@@ -104,6 +106,8 @@ function Home() {
           </Col>
         </Row>
       </Container>
+
+      
     </section>
   );
 }
