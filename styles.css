@@ -1,0 +1,36 @@
+/* ...existing code... */
+
+/* Make ALI brand text white */
+.navbar-brand-text {
+  color: #ffffff !important;
+  -webkit-text-fill-color: #ffffff;
+}
+
+/* Add vertical separator bars between nav links (desktop only) */
+.navbar-nav .nav-link:not(:last-child)::after {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 12px;
+  width: 1px;
+  height: 24px;
+  background: #ffffff;
+  opacity: 0.3;
+  transition: background 0.2s;
+}
+
+/* Hover effect on separators */
+.navbar-nav .nav-link:hover::after,
+.navbar-nav .nav-link:focus::after {
+  background: #a259ff; /* purple */
+  opacity: 1;
+}
+
+/* Hide separators on mobile (when nav links stack vertically) */
+@media (max-width: 991.98px) {
+  .navbar-nav .nav-link::after {
+    display: none;
+  }
+}
+
+/* ...existing code... */

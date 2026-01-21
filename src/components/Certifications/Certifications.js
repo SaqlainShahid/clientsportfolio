@@ -62,6 +62,17 @@ function Certifications() {
               </Card.Body>
             </Card>
           </Col>
+          <Col md={3} className="project-card">
+            <Card className="project-card-view">
+              <Card.Img onClick={() => handleOpen("/certifications/new.jpeg")} style={{ cursor: "pointer" }} variant="top" src="/certifications/new.jpeg" alt="CRT-ID" />
+              <Card.Body>
+                <Card.Title>CRT-ID - Certified Red Team Infra Dev</Card.Title>
+                <Card.Text>
+                  Red team infrastructure development: deployment, automation, and operational security.
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
         </Row>
         <Modal show={show} onHide={handleClose} size="lg" centered>
           <Modal.Body>
