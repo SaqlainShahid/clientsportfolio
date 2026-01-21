@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from "../../Assets/home-main.svg";
 import Particle from "../Particle";
@@ -10,7 +11,6 @@ import About from "../About/About";
 import Resume from "../Resume/ResumeNew";
 import Certifications from "../Certifications/Certifications";
 import Projects from "../Projects/Projects";
-import Skillset from "../Skillset";
 
 function Home() {
   return (

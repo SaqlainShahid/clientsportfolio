@@ -1,49 +1,11 @@
 import React from "react";
-import { Container, Row, Col, Card } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
 
 function Projects() {
-  const projectsData = [
-    {
-      imgPath: "/Projects/imgs/phishing-detect.jpeg",
-      isBlog: false,
-      title: "PhishDetect – ML-Based URL Classifier",
-      description:
-        "Machine-learning classifier for phishing URL detection with feature engineering and model evaluation.",
-      demoLink: "/Projects/phishdetect-1.jpeg",
-    },
-    {
-      imgPath: "/Projects/imgs/security-onion.jpeg",
-      isBlog: false,
-      title: "Security Onion Deployment",
-      description:
-        "SOC tooling setup with Security Onion, sensor onboarding and rule tuning for alert triage and investigation.",
-      demoLink: "/Projects/security-onion.jpeg",
-    },
-    {
-      imgPath: "/Projects/imgs/wazuh.jpeg",
-      isBlog: false,
-      title: "Wazuh Server & Agent Deployment",
-      description:
-        "SIEM setup with Wazuh for endpoint visibility, rule tuning and dashboarding to elevate detection capability.",
-      demoLink: "/Projects/Wazuh.pdf",
-      reportLink: "/Projects/Wazuh.pdf",
-    },
-    {
-      imgPath: "/Projects/imgs/fyp.jpeg",
-      isBlog: false,
-      title: "Intelligent Log Analysis (FYP)",
-      description:
-        "Final-year project: log analysis tooling for SOC workflows, enrichment and anomaly detection.",
-      demoLink: "/Projects/ILA-report.pdf",
-      reportLink: "/Projects/ILA-report.pdf",
-    },
-  ];
-
   return (
     <Container fluid className="project-section">
       <Particle />
