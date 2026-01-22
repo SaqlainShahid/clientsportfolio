@@ -18,7 +18,7 @@ import {
   faChalkboardTeacher,
   faTasks,
 } from "@fortawesome/free-solid-svg-icons";
-import { faPython } from "@fortawesome/free-brands-svg-icons";
+import { faPython, faWindows } from "@fortawesome/free-brands-svg-icons";
 
 const services = [
   {
